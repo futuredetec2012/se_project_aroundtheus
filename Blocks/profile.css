@@ -13,7 +13,7 @@
     no-repeat;
   height: 24px;
   width: 24px;
-  grid-area: edit-button;
+  grid-area: button;
 }
 
 .profile__add-button {
