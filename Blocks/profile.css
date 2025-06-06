@@ -1,10 +1,14 @@
 .profile {
   display: flex;
   padding-top: 40px;
+  align-items: anchor-center;
 }
 
 .profile__info {
   display: grid;
+  align-items: baseline;
+  align-content: center;
+  grid-gap: 7px 17px;
   grid-template-areas: "title button" "description description";
 }
 
@@ -13,6 +17,7 @@
     no-repeat;
   height: 24px;
   width: 24px;
+  border-block-color: white;
   grid-area: button;
 }
 
@@ -21,6 +26,7 @@
   width: 150px;
   height: 50px;
   margin-left: auto;
+  border-block-color: white;
   grid-area: add-button;
 }
 
