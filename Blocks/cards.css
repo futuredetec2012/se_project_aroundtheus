@@ -20,22 +20,35 @@
 .card__image {
   height: 282px;
   max-width: 282px;
+  border-radius: 10px;
 }
 
 .card__description {
   display: flex;
   background-color: white;
   color: black;
-  padding-top: 25px;
-  padding-bottom: 26px;
+  "/*"padding-top: 25px;
+  "*/"padding-bottom: 26px;
   padding-left: 20px;
   padding-right: 28px;
   align-items: center;
   justify-content: space-between;
+  border-radius: 10px;
 }
 
 .card__like-button {
   background: transparent url(../images/like-inactive.png) center no-repeat;
   width: 21px;
   height: 18px;
+  border: hidden;
+}
+
+.card__description-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+.card__font {
 }
