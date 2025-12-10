@@ -26,7 +26,7 @@
   background: transparent url("../images/Add\ Button.svg") center no-repeat;
   width: 150px;
   height: 50px;
-  margin-left: auto;
+  margin-left: 0;
   border-block-color: white;
   grid-area: add-button;
 }
@@ -66,10 +66,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
   }
 }
 
 .profile__description {
-  width: 100%;
-  text-align: left;
 }
