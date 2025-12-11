@@ -1,11 +1,8 @@
 .footer {
   font-family: "Inter";
-  width: 318px;
-  height: 18px;
-  top: 1139px;
-  left: 200px;
   color: #545454;
+  margin: 0 auto;
+  max-width: 880px;
   padding-top: 35px;
   padding-bottom: 55px;
-  padding-left: 120px;
 }

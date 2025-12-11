@@ -6,7 +6,13 @@
   }
 
   .header {
-    padding: 20px 0;
+    padding: 28px 0;
+    width: 320;
+    height: 56.00002670288086;
+    top: 28px;
+    angle: 0 deg;
+    opacity: 1;
+    border-width: 1px;
   }
 
   .profile {
@@ -26,6 +32,7 @@
   .profile__add-button {
     width: 100%;
     max-width: 350px;
+    margin-left: 0;
   }
 
   .cards {

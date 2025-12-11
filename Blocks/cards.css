@@ -21,6 +21,7 @@
   height: 282px;
   max-width: 282px;
   border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 
 .card__description {
@@ -33,7 +34,7 @@
   padding-right: 28px;
   align-items: center;
   justify-content: space-between;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
 }
 
 .card__like-button {

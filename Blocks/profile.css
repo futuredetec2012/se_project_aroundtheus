@@ -20,15 +20,17 @@
   width: 24px;
   border-block-color: white;
   grid-area: button;
+  border: 1px solid #fff;
 }
 
 .profile__add-button {
   background: transparent url("../images/Add\ Button.svg") center no-repeat;
   width: 150px;
   height: 50px;
-  margin-left: 0;
+  margin-left: auto;
   border-block-color: white;
   grid-area: add-button;
+  border: 2px solid #fff;
 }
 
 .profile__title {
